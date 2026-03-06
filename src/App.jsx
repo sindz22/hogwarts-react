@@ -1,8 +1,10 @@
+import Home  from "./pages/Home"
+import Navbar from "./components/navbar"
 function App(){
   return(
     <div>
-      <h1>Welcome to Hogwarts</h1>
-      <p>Your Magical journey begins here</p>
+      <Navbar/>
+      <Home/>
     </div>
   )
 }
